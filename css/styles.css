@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("/fonts/Roboto-master/Roboto-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("/fonts/Roboto-master/Roboto-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: url("/fonts/Roboto-master/Roboto-Medium.ttf");
+    font-style: normal;
+    font-weight: normal;
+
+p, .studio-left h3, label  {
+   font-family: "RobotoRegular"
+   font-size: 16px;
+   line-height 24px;
+}
+
+.main-slider h1, .main-slider a, studio h2 {
+  font-family: "RobotoMedium";
+}
+
+h2, .map h3 {
+  font-family: "RobotoBold";
+}
