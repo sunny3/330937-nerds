@@ -190,9 +190,9 @@ h1
 	position: relative;
 	width: 8px;
 }
-#btn-1:checked ~ .slide-control label[for="btn-1"]::before,
-#btn-2:checked ~ .slide-control label[for="btn-2"]::before,
-#btn-3:checked ~ .slide-control label[for="btn-3"]::before
+input[id="btn-1"]:checked ~ .slide-control label[for="btn-1"]::before,
+input[id="btn-2"]:checked ~ .slide-control label[for="btn-2"]::before,
+input[id="btn-3"]:checked ~ .slide-control label[for="btn-3"]::before
 {
 	background: #ffffff;
 	border: 2px solid #c1c1c1;
